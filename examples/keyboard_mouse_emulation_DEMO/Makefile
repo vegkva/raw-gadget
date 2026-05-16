@@ -7,5 +7,5 @@ CFLAGS=-O2 -Wall -g
 
 all: mouse_keyboard
 
-mouse_keyboard: mouse_kbd.c
+mouse_keyboard: mouse_keyboard.c
 	$(CC) -o $@ $< $(CFLAGS) -lpthread
